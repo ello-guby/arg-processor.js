@@ -88,7 +88,7 @@ ap.processStr("app -h");
     ```
     - With capturing:
     ```javascript
-    const input = ap.value("input");
+    const input = ap.proced("input") ? ap.value("input") : "default input";
     ```
 
 6. Evaluation:
