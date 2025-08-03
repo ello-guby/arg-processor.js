@@ -1,0 +1,13 @@
+{
+  "name": "arg-processor.js",
+  "description": "process arguments extensively",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+      "test": "node ./src/usage-demo.cts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0"
+  }
+}
